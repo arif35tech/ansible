@@ -1,0 +1,6 @@
+- name: Resize Container
+  hosts: all
+  tasks:
+    - name: Resize CPU and Memory
+      debug:
+        msg: "Resize Done!"
